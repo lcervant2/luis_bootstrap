@@ -1,0 +1,132 @@
+body {
+	padding-top: 90px;
+	background: url(../images/concrete_seamless.png)
+}
+
+.me-img {
+	float: left;
+	width: 200px;
+	height: auto;
+	margin-top: 10px;
+	margin-right: 25px;
+}
+.connect img {
+	width: 62px;
+}
+
+/**
+ * Layout
+ */
+.container {
+	max-width: 960px;
+}
+
+.connect {
+	text-align: center;
+}
+
+.work .thumbnail {
+	position: relative;
+	padding: 0;
+	border: 0;
+}
+
+footer {
+	padding: 30px 0;
+	clear: both;
+	font-size: 12px;
+	color: #fff;
+	color: #ccc;
+	text-align: center;
+	background: #666;
+	border-top: 8px solid #4aaaa5;
+}
+/**
+ * Typography
+ */
+h1, h2, h3 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-weight: 700;
+	color: #4aaaa5;
+}
+
+.title {
+	font-size: 30px;
+	border-bottom: 3px solid #ddd;
+	padding-bottom: 20px;
+}
+
+.connect .title {
+	font-size: 22px;
+	border: 0;
+}
+
+h3.overlay-title {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 0;
+	font-weight: 300;
+	line-height: 30px;
+	color: #fff;
+	text-align: center;
+	background: #4aaaa5;
+	border-bottom: 0;
+}
+
+.site-nav a {
+	color: #999;
+	font-size: 18px;
+}
+
+.navbar-brand {
+	width: 250px;
+	height: 90px;
+	font-size: 30px!important;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	line-height: 60px;
+	text-align: center;
+	background: #4aaaa5;
+	color: white!important;
+}
+
+p {
+	color: #777;
+	font-size: 18px;
+	margin-bottom: 20px;
+	line-height: 34px;
+}
+
+/**
+ * Navbar
+ */
+.site-nav {
+	background: white;
+	border-bottom: 2px solid #ccc;
+}
+
+.navbar-nav {
+	transform: translateY(20px);
+}
+
+.jumbotron {
+	color: #2c3e50;	
+	background: #ecf0f1;
+}
+
+/**
+ * Cards
+ */
+.card {
+	padding: 30px;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+/**
+ * Utils
+ */
+.margin-top-4 {
+	margin-top: 40px;
+}
